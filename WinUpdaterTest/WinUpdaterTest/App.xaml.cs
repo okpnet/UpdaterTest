@@ -19,14 +19,14 @@ namespace WinUpdaterTest
             IServiceCollection? services = new ServiceCollection();
             services.AddSingleton(provider =>
             {
-                return new AppUpdater.AppUpdateService(
-                    appclose: () =>
+                return AppUpdater.AppUpdateService.CreateAppUpdateService(
+                    "YwKJzdkVJ9OclIASn6hxm0QCvNB1/6ZTL6k1/K8Gmzk=",
+                    new Uri("https://github.com/okpnet/UpdaterTest/releases/download/0.0.1/appcast.xml"),
+                    () =>
                     {
                         // アプリケーションを終了する処理
                         Application.Current.Shutdown();
-                    },
-                    appcastUrl: new Uri("https://github.com/okpnet/UpdaterTest/releases/download/0.0.1/appcast.xml"),
-                    publicKeyPath: new FileInfo("publickey.pem")
+                    }
                 );
             });
             return services.BuildServiceProvider();

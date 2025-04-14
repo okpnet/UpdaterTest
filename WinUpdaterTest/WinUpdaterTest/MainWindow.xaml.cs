@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AppUpdater;
+using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,10 +18,13 @@ namespace WinUpdaterTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        readonly AppUpdateService _appUpdateService;
         public MainWindow()
         {
             InitializeComponent();
             Resources["App"] = Application.Current;
+
+            _appUpdateService = App.Services.GetRequiredService<AppUpdateService>();
         }
     }
 }
