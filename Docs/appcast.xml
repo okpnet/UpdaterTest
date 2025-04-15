@@ -9,7 +9,7 @@
       <pubDate>Mon, 14 Apr 2025 08:55:50 +09:00</pubDate>
       <sparkle:version>0.0.1</sparkle:version>
       <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
-      <enclosure url="https://github.com/okpnet/UpdaterTest/blob/main/Docs/mysetup.exe" sparkle:version="0.0.1" sparkle:shortVersionString="0.0.1" length="2398712" sparkle:os="windows-x64" type="application/x-msdos-program" sparkle:criticalUpdate="false" sparkle:signature="hofAwrCjr6Oxd3TtfRLwduKU9QYBakTH36Z6NVW57ZninCTzJJSGgi9Zy/GZJe2Y6id0py1c9VYvFNdiu92nBQ==" />
+      <enclosure url="https://raw.githubusercontent.com/okpnet/UpdaterTest/main/Docs/mysetup.exe" sparkle:version="0.0.1" sparkle:shortVersionString="0.0.1" length="2398712" sparkle:os="windows-x64" type="application/x-msdos-program" sparkle:criticalUpdate="false" sparkle:signature="hofAwrCjr6Oxd3TtfRLwduKU9QYBakTH36Z6NVW57ZninCTzJJSGgi9Zy/GZJe2Y6id0py1c9VYvFNdiu92nBQ==" />
     </item>
   </channel>
 </rss>
