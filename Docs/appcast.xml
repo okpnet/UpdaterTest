@@ -6,10 +6,10 @@
     <language>en</language>
     <item>
       <title>UpdaerTest 0.0.1</title>
-      <pubDate>Tue, 15 Apr 2025 09:09:15 +09:00</pubDate>
+      <pubDate>Mon, 14 Apr 2025 08:55:50 +09:00</pubDate>
       <sparkle:version>0.0.1</sparkle:version>
       <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
-      <enclosure url="https://github.com/okpnet/UpdaterTest/releases/tag/0.0.1/mysetup.zip" sparkle:version="0.0.1" sparkle:shortVersionString="0.0.1" length="1865377" sparkle:os="windows-x64" type="application/zip" sparkle:criticalUpdate="false" sparkle:signature="kKMFe8RMChfZp1Ct5PfBLJ5MvgZ7S1HUMxo6hmt+78vHb0W5hCXv6nsLME/eqdWzK5ZuczuDxyBfnLExvp0mBw==" />
+      <enclosure url="https://github.com/okpnet/UpdaterTest/blob/main/Docs/mysetup.exe" sparkle:version="0.0.1" sparkle:shortVersionString="0.0.1" length="2398712" sparkle:os="windows-x64" type="application/x-msdos-program" sparkle:criticalUpdate="false" sparkle:signature="hofAwrCjr6Oxd3TtfRLwduKU9QYBakTH36Z6NVW57ZninCTzJJSGgi9Zy/GZJe2Y6id0py1c9VYvFNdiu92nBQ==" />
     </item>
   </channel>
 </rss>
