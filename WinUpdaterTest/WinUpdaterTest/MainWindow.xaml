@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel Orientation="Vertical" Width="200">
+            <Button x:Name="DitecedBtn" Margin="8,8,8,0" Click="DitecedBtn_Click">確認</Button>
+            <ProgressBar x:Name="ProgressBar" Value="{Binding Progress }" Maximum="100" Margin="8,0,8,8" Height="5"></ProgressBar>
+            <Button Margin="8,8,8,8" x:Name="Update" Click="Update_Click">更新</Button>
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Width="auto" Margin="8,8,8,8" x:Name="NoeUpdaterBtn" Click="NoeUpdaterBtn_Click">更新する</Button>
+                <Button Grid.Column="1" Width="auto" Margin="8,8,8,8" x:Name="CnacelBtn" Click="CnacelBtn_Click">キャンセル</Button>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Window>
