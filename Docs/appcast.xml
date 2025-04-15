@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>UpdaerTest</title>
+    <description>Most recent changes with links to updates</description>
+    <language>en</language>
+    <item>
+      <title>UpdaerTest 0.0.1</title>
+      <pubDate>Tue, 15 Apr 2025 09:09:15 +09:00</pubDate>
+      <sparkle:version>0.0.1</sparkle:version>
+      <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+      <enclosure url="https://github.com/okpnet/UpdaterTest/releases/tag/0.0.1/mysetup.zip" sparkle:version="0.0.1" sparkle:shortVersionString="0.0.1" length="1865377" sparkle:os="windows-x64" type="application/zip" sparkle:criticalUpdate="false" sparkle:signature="kKMFe8RMChfZp1Ct5PfBLJ5MvgZ7S1HUMxo6hmt+78vHb0W5hCXv6nsLME/eqdWzK5ZuczuDxyBfnLExvp0mBw==" />
+    </item>
+  </channel>
+</rss>
